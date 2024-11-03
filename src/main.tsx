@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 
 import "./index.css";
+import "./styles.css"
 import TimersView from "./views/TimersView";
 import DocumentationView from "./views/DocumentationView";
 
@@ -35,7 +36,7 @@ const router = createHashRouter([
     children: [
       {
         index: true,
-        element: <TimersView />,
+        element: <TimersView   />,
       },
       {
         path: "/docs",

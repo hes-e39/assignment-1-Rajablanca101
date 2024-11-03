@@ -6,7 +6,7 @@ const Wrapper = styled.div`
 `;
 
 const Container = styled.div`
-  padding: 20px;
+  padding: 100px;
   display: flex;
   justify-content: space-between;
 `;
